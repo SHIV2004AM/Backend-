@@ -1,3 +1,19 @@
+# Ignore environment-specific configuration files
+.env
+config/*.env
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore IntelliJ IDEA settings
+.idea/
+ 
+ # Ignore node_modules directory for Node.js projects
+node_modules/
+
+# Ignore vendor directory for PHP projects
+vendor/
+ 
 # Logs
 logs
 *.log
